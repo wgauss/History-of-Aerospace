@@ -44,9 +44,30 @@
  *	}
  *
  *	Loop(){
+<<<<<<< HEAD
  *		spinToLocation()
  *	}
  *
+=======
+ *
+ *	<-------- earth will be full screen with: 
+ *	|		timeline opacity increases from 30% to 90-99%
+ happening at*				visible scrolling through time (media comp & info with be hidden left/right respectfully).
+ the same time->  spinToLocation(coords, d3.easeQubic())
+ *		
+ *		introduce era/accomplishment/location/time
+ *		
+ *		media display component will fullscreen with text have a backdrop blur with highlighted spoken text
+ *
+ *
+ *
+ *	}
+ *
+ * 
+ * 
+ * IDEAS:
+ * 		history of embedded systems in aeronautics, nuclear, etc. whatever shit you're in
+>>>>>>> 8a3973d (initial commit)
  * */
 
 
@@ -56,6 +77,10 @@ import { BrowserRouter, BrowserRouter as Router, Route, Routes } from "react-rou
 
 import {
   ChakraProvider,
+<<<<<<< HEAD
+=======
+	extendTheme
+>>>>>>> 8a3973d (initial commit)
 } from "@chakra-ui/react"
 
 import "@fontsource/inter"
@@ -63,8 +88,23 @@ import "./Utils/SCSS/main.scss"
 
 import { Home } from "./Pages/home"
 
+<<<<<<< HEAD
 export const App = () => (
   <ChakraProvider>
+=======
+const theme = extendTheme({
+  styles: {
+    global: () => ({
+      body: {
+        bg: ""
+      }
+    })
+  }
+});
+
+export const App = () => (
+  <ChakraProvider theme={theme}>
+>>>>>>> 8a3973d (initial commit)
    	<BrowserRouter> 
 		<Routes>
 			<Route path="/" element={<Home/>}/>

@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+# history-of-aeronautics
+=======
+>>>>>>> 8a3973d (initial commit)
 This project was bootstrapped with
 [Create React App](https://github.com/facebook/create-react-app).
 
@@ -57,3 +63,7 @@ You can learn more in the
 [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+<<<<<<< HEAD
+=======
+>>>>>>> 98b4cc6 (Created filestructure, formulated version control)
+>>>>>>> 8a3973d (initial commit)
